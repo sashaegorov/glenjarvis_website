@@ -1,0 +1,12 @@
+// Here you can use all of Foundation 6 infrastructure
+// such as mixins, variables and etc in your own SCSS
+// styles.
+.weird.button {
+  // Here is the example how to make custom
+  // style using Foundation:
+  // $white - is the globa white color varable
+  // button-hollow
+  @include button-hollow;
+  color: scale-color($white, $alpha: -50%);
+  border-color: scale-color($white, $alpha: -50%);
+}

@@ -1,7 +1,9 @@
 // Note:
 // 1. './' is used to denote file are loaded from current directory
 // 2. ./foundation-settings.scss is setting file
+// 3. ./foundation-custom.scss is custom styles based on Foundation
 @import './foundation-settings';
+@import './foundation-custom';
 // You need to import every other SCSS file manually
 // Only in that case it will share Foundation 6 varables, e.g.:
 // @import './codersclan';
