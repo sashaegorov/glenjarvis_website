@@ -1,10 +1,15 @@
+# Custom Rails assets from Bower packages
+source 'https://rails-assets.org' do
+  # Version set explicitly
+  gem 'rails-assets-foundation-sites', '6.0.5'
+end
+
 source 'https://rubygems.org'
 ruby '2.1.7'
 #ruby-gemset glenjarvis-website
 
 gem 'zip', '2.0.2'
 gem 'rails', '4.2.5'
-gem 'foundation-rails'
 
 group :development, :test do
   gem 'sqlite3', '1.3.11'
