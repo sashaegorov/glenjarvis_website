@@ -1,169 +1,158 @@
-doctype html
-html.no-js lang="en" 
-  head
-    meta charset="utf-8" /
-    meta content="width=device-width, initial-scale=1.0" name="viewport" /
-    title Foundation | Welcome
-    link href="http://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css" rel="stylesheet" /
-    link href="http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css" rel="stylesheet" type="text/css" /
-  body
-    .title-bar data-hide-for="small" data-responsive-toggle="realEstateMenu" 
-      button.menu-icon data-toggle="" type="button" 
-      .title-bar-title Menu
-    #realEstateMenu.top-bar
-      .top-bar-left
-        ul.menu data-responsive-menu="accordion" 
-          li.menu-text Interplanetary
-          li
-            a href="#"  One
-          li
-            a href="#"  Two
-          li
-            a href="#"  Three
-      .top-bar-right
-        ul.menu
-          li
-            a href="#"  My Account
-          li
-            a.button Login
-    br/
-    .row
-      .medium-7.large-6.columns
-        h1 Close Your Eyes and Open Your Mind
-        p.subheader There is beauty in space, and it is orderly. There is no weather, and there is regularity. It is predictable. Everything in space obeys the laws of physics. If you know these laws, and obey them, space will treat you kindly.
-        button.button Take a Tour
-        button.button Start a free trial
-      .show-for-large.large-3.columns
-        img alt=("picture of space") src=("http://placehold.it/400x370&text=PSR1257 + 12 C") /
-      .medium-5.large-3.columns
-        .callout.secondary
-          form
-            .row
-              .small-12.columns
-                label
-                  | Find Your Dream Planet
-                  input placeholder=("Search destinations") type="text" /
-              .small-12.columns
-                label
-                  | Number of Moons
-                  input placeholder=("Moons required") type="number" /
-                button.button type="submit"  Search Now!
-    .row.column
-      hr/
-    .row.column
-      p.lead Trending Planetary Destinations
-    .row.small-up-1.medium-up-2.large-up-3
-      .column
-        .callout
-          p Pegasi B
-          p
-            img alt=("image of a planet called Pegasi B") src=("http://placehold.it/400x370&text=Pegasi B") /
-          p.lead Copernican Revolution caused an uproar
-          p.subheader Find Earth-like planets life outside the Solar System
-      .column
-        .callout
-          p Pegasi B
-          p
-            img alt=("image of a planet called Pegasi B") src=("http://placehold.it/400x370&text=Pegasi B") /
-          p.lead Copernican Revolution caused an uproar
-          p.subheader Find Earth-like planets life outside the Solar System
-      .column
-        .callout
-          p Pegasi B
-          p
-            img alt=("image of a planet called Pegasi B") src=("http://placehold.it/400x370&text=Pegasi B") /
-          p.lead Copernican Revolution caused an uproar
-          p.subheader Find Earth-like planets life outside the Solar System
-      .column
-        .callout
-          p Pegasi B
-          p
-            img alt=("image of a planet called Pegasi B") src=("http://placehold.it/400x370&text=Pegasi B") /
-          p.lead Copernican Revolution caused an uproar
-          p.subheader Find Earth-like planets life outside the Solar System
-      .column
-        .callout
-          p Pegasi B
-          p
-            img alt=("image of a planet called Pegasi B") src=("http://placehold.it/400x370&text=Pegasi B") /
-          p.lead Copernican Revolution caused an uproar
-          p.subheader Find Earth-like planets life outside the Solar System
-      .column
-        .callout
-          p Pegasi B
-          p
-            img alt=("image of a planet called Pegasi B") src=("http://placehold.it/400x370&text=Pegasi B") /
-          p.lead Copernican Revolution caused an uproar
-          p.subheader Find Earth-like planets life outside the Solar System
-    .row.column
-      a.button.hollow.expanded Load More
-    footer
-      .row.expanded.callout.secondary
-        .small-6.large-3.columns
-          p.lead Offices
-          ul.menu.vertical
-            li
-              a href="#"  One
-            li
-              a href="#"  Two
-            li
-              a href="#"  Three
-            li
-              a href="#"  Four
-        .small-6.large-3.columns
-          p.lead Solar Systems
-          ul.menu.vertical
-            li
-              a href="#"  One
-            li
-              a href="#"  Two
-            li
-              a href="#"  Three
-            li
-              a href="#"  Four
-        .small-6.large-3.columns
-          p.lead Contact
-          ul.menu.vertical
-            li
-              a href="#" 
-                i.fi-social-twitter
-                | Twitter
-            li
-              a href="#" 
-                i.fi-social-facebook
-                | Facebook
-            li
-              a href="#" 
-                i.fi-social-instagram
-                | Instagram
-            li
-              a href="#" 
-                i.fi-social-pinterest
-                | Pinterest
-        .small-6.large-3.columns
-          p.lead Offices
-          ul.menu.vertical
-            li
-              a href="#"  One
-            li
-              a href="#"  Two
-            li
-              a href="#"  Three
-            li
-              a href="#"  Four
-      .row
-        .medium-6.columns
-          ul.menu
-            li
-              a href="#"  Legal
-            li
-              a href="#"  Partner
-            li
-              a href="#"  Explore
-        .medium-6.columns
-          ul.menu.float-right
-            li.menu-text Copyright
-    script src="https://code.jquery.com/jquery-2.1.4.min.js" 
-    script src="http://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js" 
-    javascript:
-      | $(document).foundation();
+.title-bar.show-for-small-only data-responsive-toggle="realEstateMenu"
+  button.menu-icon { data-toggle=true type="button" }
+  .title-bar-title Menu
+
+#realEstateMenu.top-bar
+  .top-bar-left
+    ul.menu.vertical.medium-horizontal
+      li.menu-text Interplanetary
+      li
+        a href="#"  One
+      li
+        a href="#"  Two
+      li
+        a href="#"  Three
+  .top-bar-right
+    ul.menu.vertical.medium-horizontal
+      li.hide-for-small-only
+        a href="#"  My Account
+      li
+        a.button Login
+
+br/
+.row
+  .medium-7.large-6.columns
+    h1 Close Your Eyes and Open Your Mind
+    p.subheader There is beauty in space, and it is orderly. There is no weather, and there is regularity. It is predictable. Everything in space obeys the laws of physics. If you know these laws, and obey them, space will treat you kindly.
+    button.button Take a Tour
+    button.button Start a free trial
+  .show-for-large.large-3.columns
+    img alt=("picture of space") src=("http://placehold.it/400x370&text=PSR1257 + 12 C") /
+  .medium-5.large-3.columns
+    .callout.secondary
+      form
+        .row
+          .small-12.columns
+            label
+              | Find Your Dream Planet
+              input placeholder=("Search destinations") type="text" /
+          .small-12.columns
+            label
+              | Number of Moons
+              input placeholder=("Moons required") type="number" /
+            button.button type="submit"  Search Now!
+.row.column
+  hr/
+.row.column
+  p.lead Trending Planetary Destinations
+.row.small-up-1.medium-up-2.large-up-3
+  .column
+    .callout
+      p Pegasi B
+      p
+        img alt=("image of a planet called Pegasi B") src=("http://placehold.it/400x370&text=Pegasi B") /
+      p.lead Copernican Revolution caused an uproar
+      p.subheader Find Earth-like planets life outside the Solar System
+  .column
+    .callout
+      p Pegasi B
+      p
+        img alt=("image of a planet called Pegasi B") src=("http://placehold.it/400x370&text=Pegasi B") /
+      p.lead Copernican Revolution caused an uproar
+      p.subheader Find Earth-like planets life outside the Solar System
+  .column
+    .callout
+      p Pegasi B
+      p
+        img alt=("image of a planet called Pegasi B") src=("http://placehold.it/400x370&text=Pegasi B") /
+      p.lead Copernican Revolution caused an uproar
+      p.subheader Find Earth-like planets life outside the Solar System
+  .column
+    .callout
+      p Pegasi B
+      p
+        img alt=("image of a planet called Pegasi B") src=("http://placehold.it/400x370&text=Pegasi B") /
+      p.lead Copernican Revolution caused an uproar
+      p.subheader Find Earth-like planets life outside the Solar System
+  .column
+    .callout
+      p Pegasi B
+      p
+        img alt=("image of a planet called Pegasi B") src=("http://placehold.it/400x370&text=Pegasi B") /
+      p.lead Copernican Revolution caused an uproar
+      p.subheader Find Earth-like planets life outside the Solar System
+  .column
+    .callout
+      p Pegasi B
+      p
+        img alt=("image of a planet called Pegasi B") src=("http://placehold.it/400x370&text=Pegasi B") /
+      p.lead Copernican Revolution caused an uproar
+      p.subheader Find Earth-like planets life outside the Solar System
+.row.column
+  a.button.hollow.expanded Load More
+footer
+  .row.expanded.callout.secondary
+    .small-6.large-3.columns
+      p.lead Offices
+      ul.menu.vertical
+        li
+          a href="#"  One
+        li
+          a href="#"  Two
+        li
+          a href="#"  Three
+        li
+          a href="#"  Four
+    .small-6.large-3.columns
+      p.lead Solar Systems
+      ul.menu.vertical
+        li
+          a href="#"  One
+        li
+          a href="#"  Two
+        li
+          a href="#"  Three
+        li
+          a href="#"  Four
+    .small-6.large-3.columns
+      p.lead Contact
+      ul.menu.vertical
+        li
+          a href="#" 
+            i.fi-social-twitter
+            | Twitter
+        li
+          a href="#" 
+            i.fi-social-facebook
+            | Facebook
+        li
+          a href="#" 
+            i.fi-social-instagram
+            | Instagram
+        li
+          a href="#" 
+            i.fi-social-pinterest
+            | Pinterest
+    .small-6.large-3.columns
+      p.lead Offices
+      ul.menu.vertical
+        li
+          a href="#"  One
+        li
+          a href="#"  Two
+        li
+          a href="#"  Three
+        li
+          a href="#"  Four
+  .row
+    .medium-6.columns
+      ul.menu
+        li
+          a href="#"  Legal
+        li
+          a href="#"  Partner
+        li
+          a href="#"  Explore
+    .medium-6.columns
+      ul.menu.float-right
+        li.menu-text Copyright
